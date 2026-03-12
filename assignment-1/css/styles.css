@@ -16,7 +16,7 @@ main > div:first-of-type {
     padding: 20px; 
 }
 /* Info Section */
-main > div:last-of-type {
+main > div:last-of-type {b
     flex: 1; 
     padding: 20px; 
     background-color: rgba(213, 213, 173, 0.945); 
