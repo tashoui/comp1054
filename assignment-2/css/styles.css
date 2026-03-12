@@ -23,9 +23,8 @@ header {
   border-bottom: 1px solid #ccc;
   padding-bottom: 4px;
   margin-bottom: 10px;
-  /* Flip order so <p> (date) shows above <h1> */
   display: flex;
-  flex-direction: column-reverse;
+  text-align: center;
 }
 
 header p {
@@ -35,8 +34,7 @@ header p {
   color: #444;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 2px;
-  /* Re-order: put the date line on top */
-  order: -1;
+  text-align: left;
 }
 
 header h1 {
@@ -203,7 +201,7 @@ figcaption p:first-child em {
 
 /* ── On Our Cover box ── */
 aside:nth-of-type(2) {
-  border: 1px solid #bbb;
+  border: 1px solid #e8500a;;
   padding: 10px 12px;
   background: #fff;
 }
@@ -213,18 +211,17 @@ aside:nth-of-type(2) h2 {
   font-style: italic;
   font-weight: 400;
   font-size: 16px;
-  margin-bottom: 6px;
+  margin-bottom: 4px;
   color: #222;
   border-bottom: 1px solid #ccc;
-  padding-bottom: 4px;
+  padding-bottom: 2px;
 }
 
 aside:nth-of-type(2) > p {
   font-size: 11px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #e8500a;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   line-height: 1.3;
 }
 
@@ -261,7 +258,7 @@ footer {
   margin-top: 14px;
   padding: 6px 0 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: right;
   align-items: center;
 }
 
@@ -284,19 +281,15 @@ footer small strong {
   color: #222;
 }
 
-/* ── Utility: strong inside li p ── */
+
 section ol li p strong {
   font-weight: 700;
   color: #222;
 }
 
-/* ── Section h3 colour overrides ── */
+/* ── Section h3 colours── */
 section:nth-of-type(3) ol li h3 {
   color: #3ab8c8;
-}
-
-section:nth-of-type(3) ol li:first-child h3 {
-  color: #e8500a;
 }
 
 section:nth-of-type(2) ol li h3 {
@@ -305,9 +298,4 @@ section:nth-of-type(2) ol li h3 {
 
 section:nth-of-type(1) ol li h3 {
   color: #6ab04a;
-}
-
-/* Override TAKE TIME TO labels to orange in all sections */
-section ol li:first-child h3 {
-  color: #e8500a;
 }
