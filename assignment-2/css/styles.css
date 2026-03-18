@@ -102,7 +102,6 @@ section ol li {
 }
 
 section ol li::before {
-  content: attr(value);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   font-size: 11px;
@@ -137,7 +136,6 @@ section ol li h3 + p {
   margin-top: 0;
 }
 
-/* Make the li's inner content span column 2 */
 section ol li > * {
   grid-column: 2;
 }
@@ -166,7 +164,7 @@ aside:nth-of-type(2) {
 
 /* ── Figure / Model photo ── */
 figure {
-  position: relative;   /* anchor for the overlay caption */
+  position: relative;   
   margin-bottom: 10px;
 }
 
