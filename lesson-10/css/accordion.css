@@ -23,19 +23,6 @@ details{
 	padding: 0 1rem;
 	background-color: rgb(182, 243, 175);
 }
-/*Animate open and close of panel*/
-details div{
-	transition: height 1s ease;
-	overflow: hidden;
-}
-details:not([open]) div {
-	height: 0;
-}
-details[open] div {
-	interpolate-size: allow-keywords;
-}
-
-
 /* STEP 3b: Adjacent sibling DETAILS elements don't need a top border */
 details + details {
 	border-top: none;

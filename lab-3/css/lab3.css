@@ -16,3 +16,48 @@ html {
 	width: 80%;
 	margin: 0 auto;
 }
+
+/* Hide all tab panels by default */
+[role="tabpanel"] {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+/* Show only the active tab panel */
+[role="tabpanel"].active {
+    display: block;
+}
+
+/* Tab list styling */
+ul[role="tablist"] {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 0;
+}
+
+ul[role="tablist"] li {
+    margin: 0;
+}
+
+ul[role="tablist"] li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #333;
+    background-color: #e9e9e9;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+}
+
+/* Active tab styling */
+ul[role="tablist"] li.active a {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    margin-bottom: -1px;
+    z-index: 1;
+    position: relative;
+}
