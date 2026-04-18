@@ -1,0 +1,97 @@
+/* Color Palette:
+ Ink Plum:    #0e0810
+ Deep Violet: #1a0f24
+Surface:     #221630
+Raised:      #2e1d42
+Border:      #3d2658
+Lavender:    #e8d5f5
+Lilac:       #c4a8e0
+Muted Mauve: #9070a8
+Hot Pink:    #e8257a
+Deep Rose:   #b01a5c
+Violet:      #9b59d6 */
+
+
+/* Basic Style */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+ background-color: #0e0810;
+  background-image:
+    radial-gradient(ellipse at 65% 0%, rgba(155, 89, 214, 0.18) 0%, transparent 60%),
+    radial-gradient(ellipse at 25% 100%, rgba(232, 37, 122, 0.12) 0%, transparent 55%);
+  color: #e8d5f5;
+  font-family: "Garamond", "Book Antiqua", Palatino, serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  text-rendering: optimizeLegibility;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+a { 
+  color: #9b59d6;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover, a:focus { 
+  color: #e8257a;
+}
+
+a:focus-visible {
+  outline: 2px solid #e8257a;
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+blockquote {
+  border-left: 3px solid #9b59d6;
+  padding-left: 1.25rem;
+  margin-block: 1.5rem;
+  color: #c4a8e0;
+}
+
+blockquote p {
+  margin-bottom: 0;
+}
+
+strong {
+  color:#e8d5f5;
+  font-weight: bold;
+}
+
+em {
+  color: #c4a8e0;
+  font-style: italic;
+}
+
+svg {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  vertical-align: middle;
+}
