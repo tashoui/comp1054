@@ -468,3 +468,272 @@ article li::marker {
   flex-shrink: 0;
   margin-top: 0.2rem;
 }
+
+/* Files Footer */
+
+#files {
+  background: inear-gradient(160deg, #221630 0%, #1a0f24 100%);
+  border: 1px solid #3d2658;
+  border-top: 3px solid #e8257a;
+  border-radius: 6px;
+  padding: 2rem;
+}
+
+#files .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#files h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #e8257a;
+
+}
+
+/* Style for all three download links */
+
+.link-downloadcss,
+.link-downloadhtml,
+.link-codepen {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 1rem;
+  background-color: #2e1d42;
+  color: #9b59d6;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8rem;
+  text-decoration: none;
+  border: 1px solid #3d2658;
+  border-radius: 6px;
+  transition: background-color 220ms ease, color 220ms ease, border-color 220ms ease;
+  width: fit-content;
+}
+
+.link-downloadcss:hover,
+.link-downloadhtml:hover,
+.link-codepen:hover,
+.link-downloadcss:focus,
+.link-downloadhtml:focus,
+.link-codepen:focus {
+  background-color: #3d2658;
+  color: #e8d5f5;
+  border-color: #9b59d6;
+}
+
+/* Aside .profile */
+.profile {
+  background: linear-gradient(160deg, #221630 0%, #1a0f24 100%);
+  border: 1px solid #3d2658;
+  border-top: 4px solid #e8257a;
+  padding: 2rem;
+}
+
+.profile h4 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #e8257a;
+  margin-bottom: 1.25rem;
+}
+
+.profile ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.25rem;
+}
+
+.profile ul li {
+  display: flex;
+  gap: 0.75rem;
+  padding-block: 0.4rem;
+  border-bottom: 1px solid #3d2658;
+  font-size: 0.875rem;
+}
+
+.profile ul li:last-child {
+  border-bottom: none;
+}
+
+.profile ul li span:first-child {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.75rem;
+  color: #9070a8;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  flex-shrink: 0;
+  width: 4.5rem;
+}
+
+.profile ul li span:last-child {
+  color: #e8d5f5;
+}
+
+.profile .container > a {
+  display: inline-block;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #9b59d6;
+  text-decoration: none;
+  border-bottom: 1px solid #9b59d6;
+  padding-bottom: 1px;
+  transition: color 220ms ease, border-color 220ms ease;
+}
+ 
+.profile .container > a:hover {
+  color: #e8257a;
+  border-color: #e8257a;
+}
+
+/* Aside #styles */
+
+#styles {
+  background: linear-gradient(160deg, #221630 0%, #1a0f24 100%);
+  border: 1px solid #3d2658;
+  border-top: 4px solid #9b59d6;
+  padding: 2rem;
+}
+
+#styles h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #9b59d6;
+  margin-bottom: 1.25rem;
+}
+ 
+#styles .features {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-bottom: 1.25rem;
+}
+ 
+#styles .features li {
+  margin-bottom: 0;
+  padding-block: 0.5rem;
+  border-bottom: 1px solid #3d2658;
+}
+ 
+#styles .features li:last-child {
+  border-bottom: none;
+}
+ 
+#styles .features li > span {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+ 
+#styles .features a {
+  color: #e8d5f5;
+  font-size: 0.95rem;
+  font-family: "Garamond", "Book Antiqua", Palatino, serif;
+}
+ 
+#styles .features a:hover {
+  color: #e8257a;
+}
+ 
+#styles .features li > span > span {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.72rem;
+  color: #9070a8;
+}
+ 
+.link-allstyles {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  background: linear-gradient(135deg, #e8257a, #9b59d6);
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  border-radius: 999px;
+  box-shadow: 0 3px 14px rgba(232, 37, 122, 0.3);
+  transition: opacity 220ms ease, transform 220ms ease;
+}
+ 
+.link-allstyles:hover,
+.link-allstyles:focus {
+  opacity: 0.88;
+  transform: translateY(-1px);
+  color: #fff;
+}
+
+/* Page footer */
+
+.page-footer {
+  position: relative;
+  z-index: 1;
+  background: #1a0f24;
+  border-top: 2px solid #3d2658;
+  padding-block: 2.5rem;
+}
+
+.page-footer::before {
+  content: "";
+  display: block;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, #e8257a 20%, #9b59d6 50%,#e8257a 80%, transparent);
+  margin-bottom: 2.5rem;
+}
+
+.page-footer .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.page-footer p {
+  font-size: 0.875rem;
+  color: #9070a8;
+}
+
+.page-footer p a {
+  color: #9070a8;
+}
+
+.page-footer p a:hover {
+  color: #e8d5f5;
+}
+
+.page-footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+}
+
+.page-footer ul a {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #9070a8;
+  text-decoration: none;
+}
+
+.page-footer ul a:hover {
+  color: #e8d5f5;
+}
+
+.page-footer .link-github {
+  font-size: 0.72rem;
+  padding: 0.35rem 0.9rem;
+  box-shadow: none;
+  margin-top: 0;
+}
