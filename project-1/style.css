@@ -1,17 +1,3 @@
-/* Color Palette:
- Ink Plum:    #0e0810
- Deep Violet: #1a0f24
-Surface:     #221630
-Raised:      #2e1d42
-Border:      #3d2658
-Lavender:    #e8d5f5
-Lilac:       #c4a8e0
-Muted Mauve: #9070a8
-Hot Pink:    #e8257a
-Deep Rose:   #b01a5c
-Violet:      #9b59d6 */
-
-
 /* Basic Style */
 
 *, *::before, *::after {
@@ -312,13 +298,13 @@ nav li:nth-child(6) a:hover {
 main {
   position: relative;
   z-index: 1;
-  padding-block: 4rem;
+  padding-block: 2rem;
 }
 
 main >.container {
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 /* Article and section basic styling */
@@ -326,12 +312,12 @@ main >.container {
 article {
   display: flex;
   flex-direction: column;
-  gap: 2.5rem;
+  gap: 1.5rem;
 }
 
 article section {
   position: relative;
-  padding: 2.5rem;
+  padding: 1.5rem;
   background: linear-gradient(160deg, #221630 0%, #1a0f24 100%);
   border: 1px solid #3d2658;
   border-radius: 6px;
@@ -383,7 +369,7 @@ article li::marker {
 #about > section:first-child::after {
   content: "";
   position: absolute;
-  top: -60px;;
+  top: -60px;
   right: -60px;
   width: 220px;
   height: 220px;
@@ -401,7 +387,7 @@ article li::marker {
   border-top: 3px solid #e8257a;
 }
 
-.link-guidlines {
+.link-guidelines {
   display: inline-block;
   margin-top: 1.25rem;
   padding: 0.6rem 1.4rem;
@@ -472,11 +458,11 @@ article li::marker {
 /* Files Footer */
 
 #files {
-  background: inear-gradient(160deg, #221630 0%, #1a0f24 100%);
+  background: linear-gradient(160deg, #221630 0%, #1a0f24 100%);
   border: 1px solid #3d2658;
   border-top: 3px solid #e8257a;
   border-radius: 6px;
-  padding: 2rem;
+  padding: 1.25rem;
 }
 
 #files .container {
@@ -530,7 +516,7 @@ article li::marker {
   background: linear-gradient(160deg, #221630 0%, #1a0f24 100%);
   border: 1px solid #3d2658;
   border-top: 4px solid #e8257a;
-  padding: 2rem;
+  padding: 1.25rem;
 }
 
 .profile h4 {
@@ -680,7 +666,7 @@ article li::marker {
   z-index: 1;
   background: #1a0f24;
   border-top: 2px solid #3d2658;
-  padding-block: 2.5rem;
+  padding-block: 1.5rem;
 }
 
 .page-footer::before {
@@ -755,7 +741,7 @@ article li::marker {
   }
 
   article section {
-    padding: 3rem;
+    padding: 2rem;
   }
 
   #files .container {
@@ -809,14 +795,7 @@ article li::marker {
   .profile,
   #styles {
     display: block;
-  }
-
-  .profile {
-   padding: 2.5rem 3rem;
-  }
-
-  #styles {
-    padding: 2.5rem 3rem;
+    padding: 1.5rem 2rem;
   }
 
   article h2 {
@@ -824,7 +803,7 @@ article li::marker {
   }
 
   article section {
-    padding: 3.5rem;
+    padding: 2.5rem;
   }
 
   #contribute ol {
